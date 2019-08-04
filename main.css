@@ -1,0 +1,132 @@
+/*
+ * Write your CSS in this file.
+ * Some styles have been pre-defined for your convenience.
+ */
+
+/*
+ * This line asks Google Fonts for the font "Lato." In class we will discuss
+ * how to use Google Fonts via the HTML <link> tag, which is the preferred
+ * method. But for this project, just accept that the following line does
+ * more or less the same thing.
+ */
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+/* This line sets all text in <body></body> to have "Lato" font */
+body { font-family: 'Lato', sans-serif; }
+
+/* This line resets all font margins to 0 for your convenience */
+h1, h2, h3, h4, h5, h6, p { margin: 0; }
+
+/* This line resets the <body>'s margins to 0, and sets the line-height to 1.5 */
+body { margin: 0; line-height: 1.5 }
+
+/*
+ * Put your CSS below this comment.
+ */
+ .hero {
+   background-image: url("img/background.jpg");
+   height: 630px;
+   width: 100%;
+   background-size: cover;
+   margin-bottom: 100px;
+ }
+
+ #heading {
+   padding-top: 250px;
+   text-align: center; /* right, left */
+   font-size: 100px;
+   color: White;
+ }
+ #subheading {
+   padding-top: 0px;
+   text-align: center; /* right, left */
+   font-size: 20px;
+   color: White;
+ }
+
+ img {
+     border-radius: 8px;
+ }
+
+
+ .About {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: Black;
+ }
+
+ .Us {
+    padding-top: 25px;
+    text-align: center;
+    font-size: 18px;
+    color: Black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+ }
+
+
+.Foods {
+
+  background-color: #fffbf8;
+  width: 1290px;
+  height: 300px;
+  padding-top: 35px;
+
+  display: flex;
+  justify-content: center;
+
+
+}
+.Foods div {
+    width: 250px;
+    height: 250px;
+    border: 5px solid #fffbf8;
+}
+
+#food {
+    font-size:20px;
+    font-weight: bold;
+    text-align:left;
+    padding-top: 10px;
+    padding-left: 350px;
+}
+#price {
+    font-size: 15px;
+    float: right;
+    padding-top: 10px;
+    margin-top: -32px;
+    padding-right: 350px;
+}
+
+#line {
+    border-bottom: 1px solid rgb(213, 213, 213);
+    margin: 0 auto;
+    width: 45%;
+    padding-top: 0px;
+}
+
+#item {
+    font-size: 15px;
+    text-align: left;
+    padding-left: 350px;
+    padding-top: 10px;
+}
+
+.footer {
+   padding-top: 50px;
+   padding-bottom: 50px;
+   background-color: #fffbf8;
+   margin-top: 50px;
+ }
+
+ #pls {
+   padding-left:45%;
+ }
+
+ .a {
+   text-decoration: none;
+   font-size: 15px;
+   text-align: center;
+ }
