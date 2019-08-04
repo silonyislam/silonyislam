@@ -1,20 +1,10 @@
-/*
- * Write your CSS in this file.
- * Some styles have been pre-defined for your convenience.
- */
 
-/*
- * This line asks Google Fonts for the font "Lato." In class we will discuss
- * how to use Google Fonts via the HTML <link> tag, which is the preferred
- * method. But for this project, just accept that the following line does
- * more or less the same thing.
- */
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 
-/* This line sets all text in <body></body> to have "Lato" font */
+/*  sets all text in <body></body> to have "Lato" font */
 body { font-family: 'Lato', sans-serif; }
 
-/* This line resets all font margins to 0 for your convenience */
+/* resets all font margins to 0 for your convenience */
 h1, h2, h3, h4, h5, h6, p { margin: 0; }
 
 /* This line resets the <body>'s margins to 0, and sets the line-height to 1.5 */
@@ -24,7 +14,7 @@ body { margin: 0; line-height: 1.5 }
  * Put your CSS below this comment.
  */
  .hero {
-   background-image: url("img/background.jpg");
+   background-image: url("1.jpg");
    height: 630px;
    width: 100%;
    background-size: cover;
