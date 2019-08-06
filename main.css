@@ -64,50 +64,52 @@ section.issaMe{
   margin-top: -50px;
 }
 
-.hero{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
-url("./img/background.jpg");
-    height:80rem;
-    width:100%;
-    background-size:cover;
-    display:flex;
-    justify-content:center;
-    align-items:center;
 
+
+section.header {
+
+  text-align:center;
+  max-width:980px;
+  position:relative;
 }
-.hero #title{
+
+img.bg{
+
+
+  max-width:100%;
+  height:auto
+}
+img{
+    border-style:none
+}
+img{
+   vertical-align:middle
+}
+
+.titleBlock{
+   position:absolute;
+   top:50%;
+   left:50%;
+   transform:translate(-50%,-50%);
+   -ms-transform:translate(-50%,-50%);
+   padding:12px 24px!important;
+   text-align:center;
+   color: white;
+}
+
+
+.titleBlock #title{
   font-size: 10rem;
   font-weight: 500;
   color: white;
   text-align: center;
 }
-@media (max-width: 560px){
-    .hero #title{
-        font-size:5rem
-    }
-}
 
-.hero {
-  padding-top: 25rem;
-  padding-bottom: 25rem;
-}
-
-
-.hero #about{
-
-  text-align: center;
+.titleBlock #silTitle{
   font-size: 3rem;
+  font-weight: 500;
   color: white;
-}
-
-.text-block {
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  background-color: black;
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px;
+  text-align: center;
 }
 
 
