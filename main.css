@@ -99,6 +99,7 @@ img{
 
 
 .titleBlock #title{
+
   font-size: 10rem;
   font-weight: 500;
   color: white;
@@ -106,6 +107,7 @@ img{
 }
 
 .titleBlock #silTitle{
+    padding-bottom: 7rem;
   font-size: 3rem;
   font-weight: 500;
   color: white;
